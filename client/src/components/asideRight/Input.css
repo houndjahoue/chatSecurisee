@@ -1,0 +1,16 @@
+.SignUpInput {
+  width: 100%;
+  color: black;
+  border-radius: 8px;
+  border: 2px solid #979191;
+  padding: 8px 5px;
+  outline: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.SignUpInput:focus {
+  border-color: #5f72f5;
+}

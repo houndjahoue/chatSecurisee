@@ -1,0 +1,19 @@
+.Btn {
+  width: 140px;
+  height: 50px;
+  color: white;
+  background-color: #5f72f5;
+  border: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Btn:disabled {
+  background-color: #aaa;
+}
+
+.BtnContainer {
+  text-align: center;
+}

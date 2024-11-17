@@ -1,0 +1,35 @@
+.discuss__box{
+    width: 90%;
+    height: 60px;
+    display: flex;
+
+}
+.discuss__box:hover{
+    background-color: #f5f5f5;;
+}
+.discuss__box .discuss__image{
+    width: 20%;
+
+    display: flex;
+    justify-content: center;
+}
+.discuss__box .discuss__image img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;    
+}
+.discuss__box .discuss__message{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 2% 0;
+    gap: 5px;
+}
+.discuss__box .discuss__message .discuss__name{
+    font-weight: bold;
+    font-size: 18px;
+}
+.discuss__box .discuss__message .discuss__fewDescription{
+    font-size: 14px;
+    color: #454545;
+}

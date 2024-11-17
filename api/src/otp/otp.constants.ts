@@ -1,0 +1,27 @@
+export const setupOtpEmail = ({
+  username,
+  otp,
+}: {
+  username: string;
+  otp: string;
+}) => `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Salut ${username}</h3>
+
+    <p>
+      Une demande de réinitialisation de mot de passe a été faite pour votre
+      compte.
+      <br />
+      Si vous n'en êtes pas l'auteur, veuillez ignorer ce mail.
+    </p>
+
+    <p><b>OTP : </b> <span>${otp}</span></p>
+  </body>
+</html>
+`;

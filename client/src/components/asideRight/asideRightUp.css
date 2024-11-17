@@ -1,0 +1,65 @@
+.container1 {
+  padding: 10px 30px;
+  width: 60%;
+  height: 100%;
+}
+
+.color {
+  color: #5f72f5;
+  text-align: center;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.centering {
+  text-align: center;
+}
+
+.camera {
+  width: 40px;
+  height: 50px;
+  margin-left: -10px;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+.UserImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.signUp__form {
+  padding: 0 5%;
+  margin-top: 40px;
+  overflow-x: auto;
+  height: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+.asideImage {
+  cursor: pointer;
+}
+form {
+  height: 100%;
+}
+
+.password-hint {
+  color: darkred;
+  font-size: 12px;
+}
+
+.signUp__form__error {
+  background-color: darkred;
+  color: #fff;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: 14px;
+  margin: 20px 5%;
+  line-height: 1.5;
+}

@@ -1,0 +1,41 @@
+/* ---> Trusly first Part style <--- */
+.firstPart__aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100%;
+  background-color: #5f72f5;
+  border-radius: 20px 0 0 20px;
+  padding: 8px 8px 16px 8px;
+}
+
+.firstPart__bottom_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.firstPart__aside .firstPart__imageUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.firstPart__aside .firstPart__imageUser img {
+  margin-top: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.firstPart__aside .firstPart__imageSetting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 12%;
+}
+.firstPart__aside .firstPart__imageLogOut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 12%;
+}

@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_DB: yourdatabase  # Remplacez 'yourdatabase' par le nom de votre base de données
+      POSTGRES_USER: yourusername  # Remplacez 'yourusername' par votre nom d'utilisateur PostgreSQL
+      POSTGRES_PASSWORD: yourpassword  # Remplacez 'yourpassword' par votre mot de passe PostgreSQL
+    ports:
+      - "5432:5432"  # Mapping du port local sur le port PostgreSQL
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # Persiste les données de la base de données PostgreSQL
+
+volumes:
+  postgres_data:
